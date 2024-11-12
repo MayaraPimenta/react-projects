@@ -1,0 +1,52 @@
+.card-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 2rem;
+  overflow-x: scroll;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img {
+  width: 176px;
+}
+
+.card-badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+}
+
+.card-section {
+  max-width: 176px;
+  font-size: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-top: 0.5rem;
+}
+
+.section-rating {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.35rem;
+}
+
+.section-rating > img {
+  width: 14px;
+  height: 14px;
+}
+
+.section-rating > span {
+  color: #918E9B;
+}
