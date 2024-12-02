@@ -1,11 +1,9 @@
-import Header from './components/Memes/Header/Header.jsx';
-import Meme from './components/Memes/Meme.jsx'
+import Main from "./components/Tenzies/Main"
 
 function App() {
   return (
     <>
-      <Header />
-      <Meme />
+      <Main />
     </>
   )
 }
