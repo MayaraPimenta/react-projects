@@ -1,0 +1,14 @@
+.status {
+  width: 100%;
+  color: #F9F4DA;
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4px;
+
+  &__title {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+}

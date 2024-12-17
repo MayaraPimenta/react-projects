@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #F9F4DA;
+  }
+
+  &__text {
+    font-size: 0.875rem;
+    color: #8E8E8E;
+    text-align: center;
+  }
+}

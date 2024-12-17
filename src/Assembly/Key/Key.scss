@@ -1,0 +1,18 @@
+.key {
+  width: 36px;
+  height: 36px;
+  background-color: #dfa11d;
+  color: #3a3a3a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+}
+
+.correct {
+  background-color: #10A95B;
+}
+
+.wrong {
+  background-color: #EC5D49;
+}

@@ -1,9 +1,9 @@
-import Main from "./components/Tenzies/Main"
+import AssemblyEndGame from "./Assembly/AssemblyEndGame" 
 
 function App() {
   return (
     <>
-      <Main />
+      <AssemblyEndGame />
     </>
   )
 }
